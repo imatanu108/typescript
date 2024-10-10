@@ -29,6 +29,19 @@ type User = {
     email: string,
     isWorking: boolean
 }
+
+// inheriting type
+type MyAdmin = User & {
+    adminKey: string
+}
+
+let admin1: MyAdmin = {
+    name: "Admin",
+    email: "admin@mail.dev",
+    isWorking: true,
+    adminKey: "key124"
+}
+
 // creating an string type
 type myString = string
 
