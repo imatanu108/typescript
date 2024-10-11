@@ -32,3 +32,5 @@ class Instagram extends TakePhoto {
 const instagram = new Instagram("Normal", "Autumn", 10)
 
 instagram.getFilter() // we can directly access that from the abstract class
+
+export {}
